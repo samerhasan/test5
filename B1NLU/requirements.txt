@@ -1,0 +1,7 @@
+nltk
+numpy
+tensorflow-tensorboard
+tensorflow
+tflearn
+Scipy
+spacy

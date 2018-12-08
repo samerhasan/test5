@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\Bedestrian Autonmous\\B1\\Code\\B1NLU\\api\\models\\b1_intents_model\\model.tflearn"
+all_model_checkpoint_paths: "E:\\Bedestrian Autonmous\\B1\\Code\\B1NLU\\api\\models\\b1_intents_model\\model.tflearn"

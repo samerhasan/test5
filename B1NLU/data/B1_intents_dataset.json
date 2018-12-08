@@ -1,0 +1,223 @@
+{
+  "intents": [
+
+     {
+      "tag": "OrderFood",
+      "patterns": [
+        "order",
+        "I’m hungry.",
+        "I feel like burger.",
+        "I want a tasty burger.",
+        "I want to order a hamburger from shake shack.",
+        "Can I get a cheeseburger, single please",
+        "I want to order a double cheeseburger",
+        "I'd like a burger",
+        "I'm in the mood for",
+        "find restaurants",
+        "what restaurants are available in my area?",
+        "find me a restaurant near me",
+        "cheeseburger near me",
+        "cheeseburger open now",
+        "food delivery service",
+        "closest restaurant takes orders",
+        "I'd like to find a good restaurant near to me",
+        "Where can I get a single cheeseburger?",
+        "Where can I get a a double cheeseburger",
+        "cheeseburger near me.",
+        "best hamburger close by",
+        "Shack Shack near me.",
+        "Plum Market, please.",
+        "best burgers close to me",
+        "roasting plant coffee",
+        "Shake Shack, please "
+
+       ],
+      "responses": [
+        "OK, Here are "
+
+      ]
+    },
+    {
+      "tag": "Delivery",
+      "patterns": [
+        "deliver to",
+        "deliver the loaded cart to ",
+        "transport ",
+        "transport to ",
+        "take it to",
+        "hand it to",
+        "give it to",
+        "transmit to ",
+        "move this cart to",
+        "delivery",
+        "take it",
+        "transport"
+       ],
+      "responses": [
+       "OK, please put the package in ben number 2 and set the temperature"
+      ]
+    },
+    {"tag": "Affirm",
+         "patterns": ["yes",
+                      "yep",
+                      "yeah",
+                      "indeed",
+                      "that's right",
+                      "ok",
+                      "great",
+                      "right, thank you",
+                      "correct",
+                      "great choice",
+                      "sounds really good",
+                      "of course",
+                      "that sounds good",
+                      "that's right"
+
+                      ],
+         "responses": [""],
+         "context_set": ""
+    },
+    {"tag": "Deny",
+         "patterns": ["no",
+                      "never",
+                      "I don't think so",
+                      "don't like that",
+                      "no way",
+                      "not really"
+                      ],
+         "responses": [""],
+         "context_set": ""
+    },
+    {
+      "tag": "Pause",
+      "patterns": [
+        "Pause",
+        "pause speech",
+        "disable voice commands",
+        "deactivate voice commands"
+
+       ],
+      "responses": [
+        "OK, pausing voice control"
+
+      ]
+    },
+    {
+      "tag": "Resume",
+      "patterns": [
+        "resume",
+        "resume speech",
+        "continue speech",
+        "enable voice commands",
+        "activate voice commands"
+
+
+       ],
+      "responses": [
+        "Ok, resuming voice control"
+
+      ]
+     },
+    {
+      "tag": "Greeting",
+      "patterns": [
+        "Hello, B1",
+        "Greet",
+        "Hello there!",
+        "Hey man! How are?",
+        "Hey",
+        "hi",
+        "what's up",
+        "Hi there."
+
+
+      ],
+      "responses": [
+        "Hello, I'm at your service."
+      ],
+       "action":  {
+                        "function": "",
+                        "responses": []
+                  },
+      "contextIn": "",
+      "contextOut": "Greeting",
+      "contextClear": "",
+      "context1":"",
+      "entities": []
+    },
+    {
+      "tag": "Farewell",
+      "patterns": [
+        "It was a pleasure meeting you",
+        "Good Bye.",
+        "see you soon",
+        "Bye B1",
+        "see you later!",
+        "farewell",
+        "bye",
+        "cheerio",
+        "goodbye",
+        "good day",
+        "I have to leave"
+      ],
+      "responses": [ "Bye! See you soon"  ]
+    },
+    {
+      "tag": "Thanks",
+      "patterns": ["Thanks",
+                   "Thank you",
+                  "Thanks for you help",
+                   "thank you B1",
+                  "That's helpful",
+                  "Appreciate it",
+                  "Thank you very much",
+                  "I appreciate it",
+                  "Thanks a lot",
+                  "Thank you so much",
+                  "Thanks for the help"
+
+      ],
+      "responses": ["Happy to help!", "My pleasure"]
+    },
+    {"tag": "Help",
+         "patterns": ["help",
+                      "need some information",
+                      "confused",
+                      "ask a question",
+                      "help me with",
+                      "have a problem",
+                      "help me",
+                      "can you help me?",
+                      "i could use your help"
+                      ],
+         "responses": ["How can I help you?"],
+         "context_set": ""
+    },
+    {"tag": "Fallback",
+         "patterns": ["",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                      ],
+         "responses": [ "I did not understand your request!",
+                        "I'm sorry I did not understand you.",
+                        "Sorry, I did not understand that",
+                        "I didn\u0027t get that. Can you say it again?",
+                        "I missed what you said. Say it again?",
+                        "Sorry, could you say that again?",
+                        "Sorry, can you say that again?",
+                        "Can you say that again?",
+                        "Sorry, I didn\u0027t get that.",
+                        "Sorry, what was that?",
+                        "One more time?",
+                        "What was that?",
+                        "Say that again?",
+                        "I didn\u0027t get that.",
+                        "I missed that."
+         ],
+         "context_set": ""
+    }
+  ]
+}
